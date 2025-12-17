@@ -51,10 +51,9 @@ Workflow: `.github/workflows/ci.yml`
 3. Executa o teste (500 VUs / 5 min)
 4. Publica artifacts com relatório/summary/análise
 
-Baixe em: **Actions → run → Artifacts → k6-results**
+Baixe o resultado em: **Actions → run → Artifacts → k6-results**
 
 ## ScreenShots
-<img src="https://github.com/cremope/k6-performance/blob/main/ScreenShots/evidencia_ok_cmd_k6.png" width="400" /> 
 <img src="https://github.com/cremope/k6-performance/blob/main/ScreenShots/evidencia_ok_html_k6.png" width="400" /> 
 <img src="https://github.com/cremope/k6-performance/blob/main/ScreenShots/evidencia_ok_html_k6_2.png" width="400" /> 
-<img src="https://github.com/cremope/k6-performance/blob/main/ScreenShots/evidencia_ok_html_k6_3.png" width="400" /> 
+<img src="https://github.com/cremope/k6-performance/blob/main/ScreenShots/evidencia_ok_html_k6_3.png" width="400" /> cl

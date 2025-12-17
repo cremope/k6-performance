@@ -6,12 +6,9 @@ import { randomIntBetween } from "https://jslib.k6.io/k6-utils/1.4.0/index.js";
 
 const BASE_URL = "https://jsonplaceholder.typicode.com";
 
-// Requisito do desafio
-// const VUS = parseInt(__ENV.VUS || "500", 10);
-// const DURATION = __ENV.DURATION || "5m";
-
-const VUS = parseInt(__ENV.VUS || "5", 10);
-const DURATION = __ENV.DURATION || "30s";
+// Parametros de execucao
+const VUS = parseInt(__ENV.VUS || "500", 10);
+const DURATION = __ENV.DURATION || "5m";
 
 // Variacao simples de IDs (1..20)
 const IDS = Array.from({ length: 20 }, (_, i) => i + 1);
